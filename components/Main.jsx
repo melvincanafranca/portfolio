@@ -19,16 +19,16 @@ const Main = () => {
                         My role includes developing, designing, and maintaining applications. I am curious about solving technology problems through designing, developing, and maintaining software products or systems that enable client strategies. I enjoy working in challenging and dynamic environments, and I am versatile in creating and supporting technology solutions that meet requirements from discovery to implementation. I have deep experience in implementing new products and offerings in the Retail and Health industries. 
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursoer-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaLinkedinIn />
                         </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursoer-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaGithub />
                         </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursoer-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineMail />
                         </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursoer-pointer hover:scale-105 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <BsFillPersonLinesFill />
                         </div>
                     </div>
