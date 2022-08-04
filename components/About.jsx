@@ -5,9 +5,12 @@ const About = () => {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p>About</p>
-          <h2>Who I am</h2>
-          <p>
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+            About
+          </p>
+          <h2 className="py-4">Who I am</h2>
+          <p className="py-2 text-gray-600"></p>
+          <p className="py-2 text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             lobortis dui eu vestibulum laoreet. Donec et justo non orci
             pellentesque imperdiet vitae sit amet ante. Orci varius natoque
@@ -22,9 +25,16 @@ const About = () => {
             suscipit eget arcu vel vehicula. Nullam auctor porta sem id feugiat.
             Aenean id enim nibh. Suspendisse potenti.
           </p>
+          <p className="py-2 text-gray-600 underline cursor-pointer">
+            Check out some of my projects.
+          </p>
         </div>
-        <div>
-          <img src="https://source.unsplash.com/IKUYGCFmfw4" alt="/" />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <img
+            className="rounded-xl"
+            src="https://source.unsplash.com/IKUYGCFmfw4"
+            alt="/"
+          />
         </div>
       </div>
     </div>
