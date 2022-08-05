@@ -66,7 +66,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col justify-center items-center">
-                <h3>NodeJS</h3>
+                <h3>Node</h3>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col justify-center items-center">
-                <h3>NextJS</h3>
+                <h3>Next</h3>
               </div>
             </div>
           </div>
